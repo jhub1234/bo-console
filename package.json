@@ -1,15 +1,11 @@
 {
   "name": "nodejs",
-  "version": "1,0,0",
+  "version": "1.0.0",
   "description": "Thsi is a node project",
-  "main": "index.js",
-  "author": "",
-  "repository": "",
-  "license": "MIT",
-  "private": false,
+  "main": "app.js",
   "scripts": {
-    "dev": "node index.js",
-    "start": "node index.js"
+    "dev": "node app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "axios": "latest"
